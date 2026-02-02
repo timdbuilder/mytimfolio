@@ -4,24 +4,28 @@ import { Skill } from '@/types';
 
 const skills: Skill[] = [
   {
-    category: 'Languages',
-    items: ['TypeScript', 'JavaScript', 'Python', 'Go', 'SQL', 'HTML/CSS']
+    category: 'Web Development',
+    items: ['Next.js', 'React.js', 'JavaScript', 'HTML/CSS', 'Responsive Design', 'Vercel']
   },
   {
-    category: 'Frontend',
-    items: ['React', 'Next.js', 'Vue.js', 'Tailwind CSS', 'Redux', 'React Query']
+    category: 'Mobile Development',
+    items: ['Flutter', 'Dart', 'Cross-platform', 'Material Design', 'iOS', 'Android']
   },
   {
-    category: 'Backend',
-    items: ['Node.js', 'Express', 'FastAPI', 'PostgreSQL', 'MongoDB', 'Redis']
+    category: 'Design & Multimedia',
+    items: ['Graphic Design', 'Whiteboard Animation', 'PowerPoint', 'Video Editing', 'Branding']
   },
   {
-    category: 'Tools & Services',
-    items: ['Git', 'Docker', 'AWS', 'Vercel', 'CI/CD', 'Firebase']
+    category: 'Engineering',
+    items: ['Structural Analysis', 'AutoCAD', 'Project Management', 'Construction', 'Technical Documentation']
   },
   {
-    category: 'Currently Learning',
-    items: ['Rust', 'Kubernetes', 'GraphQL', 'Three.js']
+    category: 'Tools & Version Control',
+    items: ['Git', 'GitHub', 'VS Code', 'Figma', 'Engineering Software']
+  },
+  {
+    category: 'Marketing & Communication',
+    items: ['Digital Marketing', 'Event Coordination', 'Campaign Strategy', 'Stakeholder Engagement']
   }
 ];
 

@@ -3,55 +3,57 @@ import type { Experience } from '@/types';
 const experiences: Experience[] = [
   {
     id: '1',
-    company: 'TechCorp Solutions',
-    position: 'Senior Full-Stack Developer',
-    period: '2023 - Present',
+    company: 'Nnamdi Azikiwe University',
+    position: 'Civil Engineering Student (500 Level)',
+    period: '2020 - 2026',
     description: [
-      'Led development of microservices architecture serving 100K+ users',
-      'Reduced API response time by 45% through optimization and caching strategies',
-      'Mentored 3 junior developers and established code review best practices',
-      'Implemented CI/CD pipelines reducing deployment time from hours to minutes'
+      'Final year Bachelor of Engineering (B.Eng.) in Civil Engineering',
+      'Developing expertise in structural analysis, construction management, and engineering design',
+      'Working with AutoCAD and engineering software for technical projects',
+      'Applying engineering principles to solve real-world infrastructure challenges'
     ],
-    technologies: ['Next.js', 'Node.js', 'PostgreSQL', 'Redis', 'AWS', 'Docker']
+    technologies: ['AutoCAD', 'Structural Analysis', 'Project Management', 'Technical Documentation']
   },
   {
     id: '2',
-    company: 'StartupX',
-    position: 'Full-Stack Developer',
-    period: '2021 - 2023',
+    company: 'University of the People',
+    position: 'Computer Science Student (3rd Year)',
+    period: '2022 - Present',
     description: [
-      'Built MVP from scratch that secured $2M in seed funding',
-      'Developed real-time collaboration features using WebSockets',
-      'Integrated payment processing with Stripe handling $500K+ transactions',
-      'Worked directly with founders on product strategy and technical decisions'
+      'Pursuing Bachelor of Science (B.Sc.) in Computer Science',
+      'Building strong foundation in software development and computer science principles',
+      'Studying algorithms, data structures, and modern programming paradigms',
+      'Bridging civil engineering knowledge with software development skills'
     ],
-    technologies: ['React', 'Express', 'MongoDB', 'Socket.io', 'Stripe']
+    technologies: ['JavaScript', 'React', 'Data Structures', 'Algorithms', 'Software Engineering']
   },
   {
     id: '3',
-    company: 'Digital Agency Co',
-    position: 'Frontend Developer',
-    period: '2020 - 2021',
+    company: 'TEDxUNIZIK',
+    position: 'Director of Public Relations (Marketing Chair)',
+    period: 'April 2023',
     description: [
-      'Delivered 15+ client projects ranging from e-commerce to SaaS platforms',
-      'Improved website performance scores from 60 to 95+ on Google Lighthouse',
-      'Collaborated with designers to create pixel-perfect responsive interfaces',
-      'Established component library reducing development time by 30%'
+      'Led marketing and public relations strategy for inaugural TEDxUNIZIK Fireworks event',
+      'Coordinated promotional campaigns across multiple channels to maximize event attendance',
+      'Created engaging marketing materials including graphics, videos, and presentations',
+      'Collaborated with organizers, speakers, and sponsors to ensure event success',
+      'Successfully contributed to making the first TEDxUNIZIK event a landmark university occasion'
     ],
-    technologies: ['React', 'Vue.js', 'Tailwind CSS', 'WordPress', 'Figma']
+    technologies: ['Marketing Strategy', 'Graphic Design', 'Video Production', 'PowerPoint', 'Event Management']
   },
   {
     id: '4',
-    company: 'Freelance',
-    position: 'Web Developer',
-    period: '2019 - 2020',
+    company: 'Freelance Developer & Designer',
+    position: 'Full-Stack Developer & Creative Designer',
+    period: '2023 - Present',
     description: [
-      'Built custom websites and applications for 20+ clients',
-      'Managed entire project lifecycle from requirements to deployment',
-      'Achieved 5-star ratings and 100% client satisfaction rate',
-      'Specialized in e-commerce and booking systems'
+      'Developing full-stack web applications using Next.js and React framework',
+      'Building cross-platform mobile applications with Flutter for iOS and Android',
+      'Creating graphic design content and whiteboard animation videos for clients',
+      'Designing professional PowerPoint presentations and marketing materials',
+      'Managing projects from concept to deployment with version control via GitHub'
     ],
-    technologies: ['JavaScript', 'PHP', 'MySQL', 'WordPress', 'Bootstrap']
+    technologies: ['Next.js', 'Flutter', 'React', 'Graphic Design', 'Git/GitHub', 'Vercel']
   }
 ];
 

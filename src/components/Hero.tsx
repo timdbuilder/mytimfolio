@@ -5,10 +5,10 @@ import { useState, useEffect } from 'react';
 export default function Hero() {
   const [currentRole, setCurrentRole] = useState(0);
   const roles = [
-    'Full-Stack Developer',
-    'Problem Solver',
-    'Coffee Enthusiast',
-    'Code Craftsman'
+    'Civil Engineering Student',
+    'Software Developer',
+    'Graphic Designer',
+    'Full-Stack Developer'
   ];
 
   useEffect(() => {
@@ -35,7 +35,7 @@ export default function Hero() {
         </div>
 
         <h1 className="text-6xl md:text-8xl font-bold mb-6 text-white">
-          Hi, I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">Timothy</span>
+          Hi, I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">Timothy Ezeani</span>
         </h1>
 
         <div className="h-20 mb-8">
@@ -48,8 +48,8 @@ export default function Hero() {
         </div>
 
         <p className="text-xl text-gray-400 max-w-2xl mx-auto mb-12 leading-relaxed">
-          I build digital experiences that don't suck. From concept to deployment, 
-          I turn caffeine into code and ideas into reality.
+          Final year Civil Engineering student who codes. I build mobile and web applications 
+          with Next.js and Flutter, while bringing creative design skills to every project.
         </p>
 
         <div className="flex gap-4 justify-center flex-wrap">
