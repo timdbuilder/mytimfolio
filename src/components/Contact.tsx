@@ -72,7 +72,7 @@ export default function Contact() {
                 </a>
 
                 <a
-                  href="https://linkedin.com/in/timothyezeani"
+                  href="https://www.linkedin.com/in/timothyezeani"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-4 text-gray-300 hover:text-white transition-colors group"
@@ -84,7 +84,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <div className="text-sm text-gray-400">LinkedIn</div>
-                    <div className="font-medium">linkedin.com/in/timothyezeani</div>
+                    <div className="font-medium">Timothy Ezeani</div>
                   </div>
                 </a>
 
