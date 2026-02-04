@@ -19,7 +19,7 @@ export default function About() {
                 Flutter, while also creating engaging visual content through graphic design and whiteboard animation.
               </p>
               <p className="text-lg">
-                Based in Onitsha, Nigeria, I'm passionate about using technology to solve problems and 
+                Based in Awka, Anambra State, Nigeria, I'm passionate about using technology to solve problems and 
                 create meaningful digital experiences. When I'm not coding or designing, I'm coordinating 
                 events, creating marketing content, or exploring new ways to bridge engineering and technology.
               </p>
@@ -80,7 +80,7 @@ export default function About() {
                 <li className="flex items-start">
                   <span className="mr-3 text-2xl">📍</span>
                   <div>
-                    <strong>Location:</strong> Onitsha, Anambra State, Nigeria
+                    <strong>Location:</strong> Awka, Anambra State, Nigeria
                   </div>
                 </li>
                 <li className="flex items-start">
