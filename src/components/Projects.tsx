@@ -32,7 +32,7 @@ const projects: Project[] = [
     description: 'Complete marketing strategy for TEDx event',
     longDescription: 'Led comprehensive marketing and public relations campaign for the inaugural TEDxUNIZIK Fireworks event. Created engaging visual content including graphics, promotional videos, and presentation materials that contributed to making it a landmark university event.',
     tags: ['Marketing', 'Graphic Design', 'Video Production', 'Event Management', 'PowerPoint'],
-    image: '/projects/tedx.png',
+    image: '/projects/tedx.jpg',
     link: 'https://wa.link/2e6q7h',
     featured: true,
     year: '2023'
@@ -55,7 +55,7 @@ const projects: Project[] = [
     description: 'Explainer videos and animated content',
     longDescription: 'Created engaging whiteboard animation videos for various clients, transforming complex ideas into clear visual stories. Specialized in educational content and business explainer videos.',
     tags: ['Animation', 'Video Production', 'Storytelling', 'Creative Design'],
-    image: '/projects/whiteboard.png',
+    image: '/projects/whiteboard.jpg',
     link: 'https://www.youtube.com/watch?v=qJkxogQmbi8',
     featured: false,
     year: '2023'
@@ -66,7 +66,7 @@ const projects: Project[] = [
     description: 'Technical presentations and reports',
     longDescription: 'Developed professional PowerPoint presentations and technical documentation for civil engineering projects. Combined engineering knowledge with design skills for clear communication of complex structural concepts.',
     tags: ['PowerPoint', 'Technical Writing', 'AutoCAD', 'Data Visualization'],
-    image: '/projects/engineering.png',
+    image: '/projects/engineering.jpg',
     link: 'https://wa.link/2e6q7h',
     featured: false,
     year: '2023'
