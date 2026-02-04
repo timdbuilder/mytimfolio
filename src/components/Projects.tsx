@@ -94,7 +94,7 @@ export default function Projects() {
             onClick={() => setFilter('all')}
             className={`px-6 py-2 rounded-full font-medium transition-all ${
               filter === 'all'
-                ? 'bg-purple-600 text-white shadow-lg'
+                ? 'bg-blue-600 text-white shadow-lg'
                 : 'bg-white text-gray-600 hover:bg-gray-100'
             }`}
           >
@@ -104,7 +104,7 @@ export default function Projects() {
             onClick={() => setFilter('featured')}
             className={`px-6 py-2 rounded-full font-medium transition-all ${
               filter === 'featured'
-                ? 'bg-purple-600 text-white shadow-lg'
+                ? 'bg-blue-600 text-white shadow-lg'
                 : 'bg-white text-gray-600 hover:bg-gray-100'
             }`}
           >
@@ -118,17 +118,29 @@ export default function Projects() {
               key={project.id}
               className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 group"
             >
-              <div className="h-48 bg-gradient-to-br from-purple-400 to-pink-600 relative overflow-hidden">
-                <div className="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-colors flex items-center justify-center">
-                  <div className="text-white text-6xl font-bold opacity-20">
-                    {project.year}
+              <div className="h-48 relative overflow-hidden bg-gray-200">
+                {project.image ? (
+                  <img 
+                    src={project.image} 
+                    alt={project.title}
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                ) : (
+                  <div className="h-48 bg-gradient-to-br from-blue-400 to-blue-600 flex items-center justify-center">
+                    <div className="text-white text-6xl font-bold opacity-20">
+                      {project.year}
+                    </div>
                   </div>
-                </div>
+                )}
+                <div className="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-colors"></div>
                 {project.featured && (
-                  <span className="absolute top-4 right-4 bg-yellow-400 text-yellow-900 text-xs font-bold px-3 py-1 rounded-full">
+                  <span className="absolute top-4 right-4 bg-yellow-400 text-yellow-900 text-xs font-bold px-3 py-1 rounded-full shadow-lg">
                     ⭐ Featured
                   </span>
                 )}
+                <span className="absolute bottom-4 left-4 bg-blue-600 text-white text-xs font-bold px-3 py-1 rounded-full shadow-lg">
+                  {project.year}
+                </span>
               </div>
 
               <div className="p-6">
@@ -159,7 +171,7 @@ export default function Projects() {
                       href={project.link}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex-1 text-center px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors"
+                      className="flex-1 text-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
                     >
                       Live Demo
                     </a>

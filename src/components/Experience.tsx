@@ -72,7 +72,7 @@ export default function Experience() {
 
         <div className="relative">
           {/* Timeline line */}
-          <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-gradient-to-b from-purple-400 to-pink-600"></div>
+          <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-gradient-to-b from-blue-400 to-blue-600"></div>
 
           <div className="space-y-12">
             {experiences.map((exp, index) => (
@@ -83,7 +83,7 @@ export default function Experience() {
                 }`}
               >
                 {/* Timeline dot */}
-                <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2 w-6 h-6 bg-gradient-to-br from-purple-500 to-pink-600 rounded-full border-4 border-white shadow-lg z-10"></div>
+                <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2 w-6 h-6 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full border-4 border-white shadow-lg z-10"></div>
 
                 {/* Content */}
                 <div className={`w-full md:w-5/12 ${index % 2 === 0 ? 'md:pr-12' : 'md:pl-12'}`}>
@@ -93,11 +93,11 @@ export default function Experience() {
                         <h3 className="text-2xl font-bold text-gray-900 mb-1">
                           {exp.position}
                         </h3>
-                        <div className="text-lg text-purple-600 font-semibold">
+                        <div className="text-lg text-blue-600 font-semibold">
                           {exp.company}
                         </div>
                       </div>
-                      <span className="bg-purple-100 text-purple-700 px-3 py-1 rounded-full text-sm font-medium whitespace-nowrap ml-2">
+                      <span className="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm font-medium whitespace-nowrap ml-2">
                         {exp.period}
                       </span>
                     </div>
@@ -105,7 +105,7 @@ export default function Experience() {
                     <ul className="space-y-2 mb-4">
                       {exp.description.map((item, i) => (
                         <li key={i} className="flex items-start text-gray-600">
-                          <span className="text-purple-600 mr-2 mt-1">▹</span>
+                          <span className="text-blue-600 mr-2 mt-1">▹</span>
                           <span>{item}</span>
                         </li>
                       ))}
@@ -133,7 +133,7 @@ export default function Experience() {
           <a
             href="/resume.pdf"
             download
-            className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-purple-600 to-pink-600 text-white rounded-lg font-medium hover:shadow-lg hover:shadow-purple-500/50 transition-all duration-300 hover:scale-105"
+            className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-lg font-medium hover:shadow-lg hover:shadow-blue-500/50 transition-all duration-300 hover:scale-105"
           >
             <svg
               className="w-5 h-5"

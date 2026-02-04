@@ -59,7 +59,7 @@ export default function Skills() {
               style={{ animationDelay: `${index * 100}ms` }}
             >
               <h3 className="text-xl font-bold mb-4 text-gray-900 flex items-center">
-                <span className="w-2 h-2 bg-purple-600 rounded-full mr-3"></span>
+                <span className="w-2 h-2 bg-blue-600 rounded-full mr-3"></span>
                 {skillGroup.category}
               </h3>
               <div className="flex flex-wrap gap-2">
@@ -86,11 +86,11 @@ export default function Skills() {
               <div key={item.skill}>
                 <div className="flex justify-between mb-2">
                   <span className="font-medium text-gray-700">{item.skill}</span>
-                  <span className="text-purple-600 font-bold">{item.level}%</span>
+                  <span className="text-blue-600 font-bold">{item.level}%</span>
                 </div>
                 <div className="h-3 bg-gray-200 rounded-full overflow-hidden">
                   <div
-                    className="h-full bg-gradient-to-r from-purple-500 to-pink-600 rounded-full transition-all duration-1000 ease-out"
+                    className="h-full bg-gradient-to-r from-blue-500 to-blue-600 rounded-full transition-all duration-1000 ease-out"
                     style={{ width: `${item.level}%` }}
                   ></div>
                 </div>
@@ -101,12 +101,12 @@ export default function Skills() {
 
         {/* Fun Stats */}
         <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-6">
-          <div className="text-center p-6 bg-gradient-to-br from-purple-500 to-purple-600 rounded-xl text-white">
+          <div className="text-center p-6 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl text-white">
             <div className="text-4xl mb-2">⚡</div>
             <div className="text-3xl font-bold mb-1">Fast</div>
             <div className="text-sm opacity-90">Learner</div>
           </div>
-          <div className="text-center p-6 bg-gradient-to-br from-pink-500 to-pink-600 rounded-xl text-white">
+          <div className="text-center p-6 bg-gradient-to-br from-blue-600 to-blue-700 rounded-xl text-white">
             <div className="text-4xl mb-2">🎯</div>
             <div className="text-3xl font-bold mb-1">Detail</div>
             <div className="text-sm opacity-90">Oriented</div>
