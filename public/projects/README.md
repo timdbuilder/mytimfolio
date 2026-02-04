@@ -6,24 +6,23 @@ This folder contains thumbnail images for your portfolio projects.
 
 Place your project images here with the following names:
 
-- `tedx.jpg` or `tedx.pdf` - Your TEDxUNIZIK Certificate
-- `ckccrn-web.jpg` - CKCCRN Web Application screenshot
-- `ckccrn-mobile.jpg` - CKCCRN Mobile Application screenshot  
-- `portfolio.jpg` - Portfolio website screenshot
-- `whiteboard.jpg` - Whiteboard animation sample
-- `engineering.jpg` - Engineering documentation sample
+- `tedx.png` - Your TEDxUNIZIK Certificate (screenshot or image)
+- `ckccrn-web.png` - CKCCRN Web Application screenshot
+- `ckccrn-mobile.png` - CKCCRN Mobile Application screenshot  
+- `portfolio.png` - Portfolio website screenshot
+- `whiteboard.png` - Whiteboard animation thumbnail/sample
+- `engineering.png` - Engineering documentation sample
 
 ## Image Guidelines
 
-- **Format**: JPG, PNG, or PDF (for certificates)
-- **Size**: Recommended 800x600px or similar aspect ratio
+- **Format**: PNG or JPG (PNG recommended for better quality)
+- **Size**: Recommended 800x600px or similar aspect ratio (4:3 or 16:9)
 - **File Size**: Keep under 500KB for optimal loading
 
-## For PDFs (like certificates)
+## Project Links Set Up
 
-If you want to display a PDF certificate as a thumbnail:
-1. Take a screenshot of the PDF or export the first page as an image
-2. Save it as `tedx.jpg` in this folder
-3. The Projects component will automatically display it
+- **TEDxUNIZIK** → Links to WhatsApp (wa.link/2e6q7h)
+- **Whiteboard Animation** → Links to YouTube video
+- **Engineering Documentation** → Links to WhatsApp (wa.link/2e6q7h)
 
-Alternatively, you can use the full PDF and the browser will render it accordingly.
+The Projects component automatically handles both PNG and JPG formats!

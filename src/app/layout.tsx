@@ -15,6 +15,11 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Timothy Ezeani - Engineer & Developer",
   description: "Portfolio of Timothy Ezeani - Civil Engineering Student, Software Developer, and Creative Designer building innovative solutions with Next.js and Flutter",
+  icons: {
+    icon: '/favicon.svg',
+    shortcut: '/favicon.svg',
+    apple: '/favicon.svg',
+  },
 };
 
 export default function RootLayout({

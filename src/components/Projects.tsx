@@ -10,7 +10,7 @@ const projects: Project[] = [
     description: 'Full-stack web application for church community',
     longDescription: 'Developed a comprehensive web application using Next.js framework with responsive design for optimal user experience across all devices. Implemented modern React patterns and deployed on Vercel platform for reliable performance.',
     tags: ['Next.js', 'React', 'JavaScript', 'Vercel', 'Responsive Design'],
-    image: '/projects/ckccrn-web.jpg',
+    image: '/projects/ckccrn-web.png',
     link: 'https://ckccrnapp.vercel.app',
     featured: true,
     year: '2024'
@@ -21,7 +21,7 @@ const projects: Project[] = [
     description: 'Cross-platform mobile app built with Flutter',
     longDescription: 'Built a feature-rich mobile application using Flutter framework for both iOS and Android platforms. Designed intuitive user interface following Material Design principles and managed version control through GitHub.',
     tags: ['Flutter', 'Dart', 'Mobile Development', 'Material Design', 'Cross-platform'],
-    image: '/projects/ckccrn-mobile.jpg',
+    image: '/projects/ckccrn-mobile.png',
     github: 'https://github.com/timzydProgrammer/ckccrn_app',
     featured: true,
     year: '2024'
@@ -32,7 +32,8 @@ const projects: Project[] = [
     description: 'Complete marketing strategy for TEDx event',
     longDescription: 'Led comprehensive marketing and public relations campaign for the inaugural TEDxUNIZIK Fireworks event. Created engaging visual content including graphics, promotional videos, and presentation materials that contributed to making it a landmark university event.',
     tags: ['Marketing', 'Graphic Design', 'Video Production', 'Event Management', 'PowerPoint'],
-    image: '/projects/tedx.jpg',
+    image: '/projects/tedx.png',
+    link: 'https://wa.link/2e6q7h',
     featured: true,
     year: '2023'
   },
@@ -42,7 +43,7 @@ const projects: Project[] = [
     description: 'Modern portfolio built with Next.js',
     longDescription: 'Designed and developed this responsive portfolio website showcasing my projects and skills. Built with Next.js 16, TypeScript, and Tailwind CSS for optimal performance and SEO.',
     tags: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Responsive', 'SEO'],
-    image: '/projects/portfolio.jpg',
+    image: '/projects/portfolio.png',
     github: 'https://github.com/timdbuilder/mytimfolio',
     link: 'https://mytimfolio.vercel.app',
     featured: false,
@@ -54,7 +55,8 @@ const projects: Project[] = [
     description: 'Explainer videos and animated content',
     longDescription: 'Created engaging whiteboard animation videos for various clients, transforming complex ideas into clear visual stories. Specialized in educational content and business explainer videos.',
     tags: ['Animation', 'Video Production', 'Storytelling', 'Creative Design'],
-    image: '/projects/whiteboard.jpg',
+    image: '/projects/whiteboard.png',
+    link: 'https://www.youtube.com/watch?v=qJkxogQmbi8',
     featured: false,
     year: '2023'
   },
@@ -64,7 +66,8 @@ const projects: Project[] = [
     description: 'Technical presentations and reports',
     longDescription: 'Developed professional PowerPoint presentations and technical documentation for civil engineering projects. Combined engineering knowledge with design skills for clear communication of complex structural concepts.',
     tags: ['PowerPoint', 'Technical Writing', 'AutoCAD', 'Data Visualization'],
-    image: '/projects/engineering.jpg',
+    image: '/projects/engineering.png',
+    link: 'https://wa.link/2e6q7h',
     featured: false,
     year: '2023'
   }
