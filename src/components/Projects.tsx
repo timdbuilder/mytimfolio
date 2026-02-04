@@ -10,7 +10,7 @@ const projects: Project[] = [
     description: 'Full-stack web application for church community',
     longDescription: 'Developed a comprehensive web application using Next.js framework with responsive design for optimal user experience across all devices. Implemented modern React patterns and deployed on Vercel platform for reliable performance.',
     tags: ['Next.js', 'React', 'JavaScript', 'Vercel', 'Responsive Design'],
-    image: '/projects/ckccrn-web.png',
+    image: '/projects/web-app.png',
     link: 'https://ckccrnapp.vercel.app',
     featured: true,
     year: '2024'
